@@ -3,7 +3,7 @@
 
 [ ![Codeship Status for bukinoshita/goot](https://app.codeship.com/projects/cfdaafb0-cf8f-0134-bce9-3687366d48fa/status?branch=master)](https://app.codeship.com/projects/200932)
 [![GitHub release](https://img.shields.io/github/release/bukinoshita/goot.svg)](https://www.npmjs.com/package/goot)
-[![GitHub license](ls)](https://raw.githubusercontent.com/bukinoshita/goot/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/bukinoshita/goot/master/LICENSE)
 
 ## Install
 ```
