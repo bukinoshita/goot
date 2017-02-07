@@ -10,6 +10,4 @@ const goot = () => {
   })
 }
 
-goot().then(res => console.log(res))
-
-export default goot
+module.exports = goot
