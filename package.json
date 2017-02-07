@@ -1,0 +1,31 @@
+{
+  "name": "goot",
+  "version": "0.0.0",
+  "description": "Goot humanize greetings 👋",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src -d lib",
+    "test": "./node_modules/.bin/xo && ./node_modules/.bin/ava"
+  },
+  "repository": {
+    "url": "git@github.com:bukinoshita/goot.git",
+    "type": "git"
+  },
+  "author": "Bu Kinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "xo": "^0.17.1",
+    "ava": "^0.18.1",
+    "babel-cli": "^6.22.2",
+    "babel-preset-env": "^1.1.8"
+  },
+  "xo": {
+    "esnext": true,
+    "space": true,
+    "semicolon": false,
+    "ignores": [
+      "lib/*"
+    ]
+  }
+}
