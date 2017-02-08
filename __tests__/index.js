@@ -10,22 +10,176 @@ test('should return a not empty result', t => {
   t.is(result, true)
 })
 
-test('should return morning', t => {
+test('should return morning for 24', t => {
+  const now = 24
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 0', t => {
+  const now = 0
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 1', t => {
+  const now = 1
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 2', t => {
+  const now = 2
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 3', t => {
+  const now = 3
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 4', t => {
+  const now = 4
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 5', t => {
+  const now = 5
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 6', t => {
+  const now = 6
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 7', t => {
+  const now = 7
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 8', t => {
+  const now = 8
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 9', t => {
+  const now = 9
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return morning for 10', t => {
   const now = 10
   const result = greeting(now)
 
   t.is(result, 'morning')
 })
 
-test('should return afternoon', t => {
+test('should return morning 11', t => {
+  const now = 11
+  const result = greeting(now)
+
+  t.is(result, 'morning')
+})
+
+test('should return afternoon 12', t => {
+  const now = 12
+  const result = greeting(now)
+
+  t.is(result, 'afternoon')
+})
+
+test('should return afternoon 13', t => {
+  const now = 13
+  const result = greeting(now)
+
+  t.is(result, 'afternoon')
+})
+
+test('should return afternoon 14', t => {
   const now = 14
   const result = greeting(now)
 
   t.is(result, 'afternoon')
 })
 
-test('should return night', t => {
+test('should return afternoon 15', t => {
+  const now = 15
+  const result = greeting(now)
+
+  t.is(result, 'afternoon')
+})
+
+test('should return afternoon 16', t => {
+  const now = 16
+  const result = greeting(now)
+
+  t.is(result, 'afternoon')
+})
+
+test('should return afternoon 17', t => {
+  const now = 17
+  const result = greeting(now)
+
+  t.is(result, 'afternoon')
+})
+
+test('should return afternoon 18', t => {
+  const now = 18
+  const result = greeting(now)
+
+  t.is(result, 'afternoon')
+})
+
+test('should return night 19', t => {
   const now = 19
+  const result = greeting(now)
+
+  t.is(result, 'night')
+})
+
+test('should return night 20', t => {
+  const now = 20
+  const result = greeting(now)
+
+  t.is(result, 'night')
+})
+
+test('should return night 21', t => {
+  const now = 21
+  const result = greeting(now)
+
+  t.is(result, 'night')
+})
+
+test('should return night 22', t => {
+  const now = 22
+  const result = greeting(now)
+
+  t.is(result, 'night')
+})
+
+test('should return night 23', t => {
+  const now = 23
   const result = greeting(now)
 
   t.is(result, 'night')
