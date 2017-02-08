@@ -2,9 +2,7 @@
 
 import greeting from './greeting'
 
-const goot = () => {
-  const now = new Date().getHours()
-
+const goot = (now = new Date().getHours()) => {
   return new Promise(resolve => {
     resolve(greeting(now))
   })

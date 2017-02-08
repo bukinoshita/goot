@@ -2,6 +2,20 @@
 
 import test from 'ava'
 import greeting from '../lib/greeting'
+import goot from '../lib'
+
+test('goot', async t => {
+  const greetings = await goot()
+
+  t.is(greetings.length > 0, true)
+})
+
+test('goot with arg', async t => {
+  const now = new Date().getHours()
+  const greetings = await goot(now)
+
+  t.is(greetings.length > 0, true)
+})
 
 test('should return a not empty result', t => {
   const now = new Date().getHours()
