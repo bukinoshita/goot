@@ -7,21 +7,21 @@ import goot from '../lib'
 test('goot', async t => {
   const greetings = await goot()
 
-  t.is(greetings.length > 0, true)
+  t.true(greetings.length > 0)
 })
 
 test('goot with arg', async t => {
   const now = new Date().getHours()
   const greetings = await goot(now)
 
-  t.is(greetings.length > 0, true)
+  t.true(greetings.length > 0)
 })
 
 test('should return a not empty result', t => {
   const now = new Date().getHours()
   const result = greeting(now).length > 0
 
-  t.is(result, true)
+  t.true(result)
 })
 
 test('should return morning for 24', t => {
