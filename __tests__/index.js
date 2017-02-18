@@ -17,6 +17,13 @@ test('goot with arg', async t => {
   t.true(greetings.length > 0)
 })
 
+test('invalid arg', async t => {
+  const now = 'nice'
+  const greetings = await goot(now)
+
+  t.is(greetings, 'Invalid time')
+})
+
 test('should return a not empty result', t => {
   const now = new Date().getHours()
   const result = greeting(now).length > 0

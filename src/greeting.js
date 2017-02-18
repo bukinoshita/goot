@@ -1,11 +1,11 @@
 'use strict'
 
 const greeting = time => {
-  if ((time < 12 && time >= 0) || time === 24) {
+  if (time < 12) {
     return 'morning'
-  } else if (time > 11 && time < 19) {
+  } else if (time < 18) {
     return 'afternoon'
-  } else if (time > 18 && time < 24) {
+  } else if (time < 23) {
     return 'night'
   }
 
