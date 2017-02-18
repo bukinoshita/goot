@@ -31,13 +31,6 @@ test('should return a not empty result', t => {
   t.true(result)
 })
 
-test('should return morning for 24', t => {
-  const now = 24
-  const result = greeting(now)
-
-  t.is(result, 'morning')
-})
-
 test('should return morning for 0', t => {
   const now = 0
   const result = greeting(now)
