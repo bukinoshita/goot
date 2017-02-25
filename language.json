@@ -1,0 +1,27 @@
+{
+  "en": [
+    "morning",
+    "afternoon",
+    "night"
+  ],
+  "pt": [
+    "dia",
+    "tarde",
+    "noite"
+  ],
+  "es": [
+    "días",
+    "tardes",
+    "noches"
+  ],
+  "fr": [
+    "bonjour",
+    "après-midi",
+    "nuit"
+  ],
+  "de": [
+    "morgen",
+    "nachmittag",
+    "nacht"
+  ]
+}

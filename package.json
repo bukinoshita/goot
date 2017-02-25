@@ -25,6 +25,9 @@
     "semicolon": false,
     "ignores": [
       "lib/*"
-    ]
+    ],
+    "rules": {
+      "import/extensions": 0
+    }
   }
 }

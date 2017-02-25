@@ -16,10 +16,13 @@ import goot from 'goot'
 
 goot(10).then(greeting => console.log(`Good ${greeting}`))
 // => Good morning
+
+goot(10, 'de').then(greeting => console.log(`Guten ${greeting}`))
+// => Guten morgen
 ```
 
 ## API
-### goot(input)
+### goot(input, language)
 
 #### input
 Type: number<br/>
@@ -27,6 +30,12 @@ Default: new Date().getHours() // current time<br/>
 Optional
 
 input should be a number between 0-23 (hour)
+
+#### language
+Type: string<br/>
+Default: 'en'<br/>
+Options: 'en', 'pt', 'es', 'fr' and 'de'<br/>
+Optional
 
 ## Example
 - [goot-web](https://github.com/bukinoshita/goot-web) — React example using goot
