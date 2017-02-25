@@ -205,3 +205,87 @@ test('should return an error', t => {
 
   t.is(result, 'Invalid time')
 })
+
+test('should return dia', t => {
+  const now = 2
+  const result = greeting(now, 'pt')
+
+  t.is(result, 'dia')
+})
+
+test('should return tarde', t => {
+  const now = 13
+  const result = greeting(now, 'pt')
+
+  t.is(result, 'tarde')
+})
+
+test('should return noite', t => {
+  const now = 20
+  const result = greeting(now, 'pt')
+
+  t.is(result, 'noite')
+})
+
+test('should return días', t => {
+  const now = 2
+  const result = greeting(now, 'es')
+
+  t.is(result, 'días')
+})
+
+test('should return tardes', t => {
+  const now = 13
+  const result = greeting(now, 'es')
+
+  t.is(result, 'tardes')
+})
+
+test('should return noches', t => {
+  const now = 20
+  const result = greeting(now, 'es')
+
+  t.is(result, 'noches')
+})
+
+test('should return bonjour', t => {
+  const now = 2
+  const result = greeting(now, 'fr')
+
+  t.is(result, 'bonjour')
+})
+
+test('should return après-midi', t => {
+  const now = 13
+  const result = greeting(now, 'fr')
+
+  t.is(result, 'après-midi')
+})
+
+test('should return nuit', t => {
+  const now = 20
+  const result = greeting(now, 'fr')
+
+  t.is(result, 'nuit')
+})
+
+test('should return morgen', t => {
+  const now = 2
+  const result = greeting(now, 'de')
+
+  t.is(result, 'morgen')
+})
+
+test('should return nachmittag', t => {
+  const now = 13
+  const result = greeting(now, 'de')
+
+  t.is(result, 'nachmittag')
+})
+
+test('should return nacht', t => {
+  const now = 20
+  const result = greeting(now, 'de')
+
+  t.is(result, 'nacht')
+})

@@ -1,12 +1,14 @@
 'use strict'
 
-const greeting = time => {
+import languages from './../language.json'
+
+const greeting = (time = new Date().getHours(), language = 'en') => {
   if (time < 12) {
-    return 'morning'
+    return languages[language][0]
   } else if (time <= 18) {
-    return 'afternoon'
+    return languages[language][1]
   } else if (time <= 23) {
-    return 'night'
+    return languages[language][2]
   }
 
   return 'Invalid time'
