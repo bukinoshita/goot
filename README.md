@@ -2,6 +2,7 @@
 > Goot humazine greetings :wave:
 
 [![Codeship Status for bukinoshita/goot](https://app.codeship.com/projects/cfdaafb0-cf8f-0134-bce9-3687366d48fa/status?branch=master)](https://app.codeship.com/projects/200932)
+[![Build Status](https://travis-ci.org/bukinoshita/goot.svg?branch=master)](https://travis-ci.org/bukinoshita/goot)
 [![GitHub release](https://img.shields.io/github/release/bukinoshita/goot.svg)](https://www.npmjs.com/package/goot)
 [![license](https://img.shields.io/github/license/bukinoshita/goot.svg)](https://raw.githubusercontent.com/bukinoshita/goot/master/LICENSE)
 
