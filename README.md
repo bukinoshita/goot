@@ -33,9 +33,9 @@ Optional
 input should be a number between 0-23 (hour)
 
 #### language
-Type: string<br/>
-Default: 'en'<br/>
-Options: 'en', 'pt', 'es', 'fr' and 'de'<br/>
+Type: `string`<br/>
+Default: `en`<br/>
+Options: `en`, `pt`, `es`, `fr` and `de`<br/>
 Optional
 
 ## Example
