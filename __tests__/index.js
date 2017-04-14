@@ -248,11 +248,11 @@ test('should return noches', t => {
   t.is(result, 'noches')
 })
 
-test('should return bonjour', t => {
+test('should return jour', t => {
   const now = 2
   const result = greeting(now, 'fr')
 
-  t.is(result, 'bonjour')
+  t.is(result, 'jour')
 })
 
 test('should return après-midi', t => {
