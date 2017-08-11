@@ -12,6 +12,4 @@ const goot = (now, language) => {
   })
 }
 
-goot(2, 'de')
-
 module.exports = goot
