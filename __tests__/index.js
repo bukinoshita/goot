@@ -2,26 +2,21 @@
 
 import test from 'ava'
 import greeting from '../lib/greeting'
-import goot from '../lib'
+import goot from './..'
 
-test('goot', async t => {
-  const greetings = await goot()
-
-  t.true(greetings.length > 0)
-})
-
-test('goot with arg', async t => {
+test('goot with arg', t => {
   const now = new Date().getHours()
-  const greetings = await goot(now)
 
-  t.true(greetings.length > 0)
+  t.true(goot(now).length > 0)
 })
 
-test('invalid arg', async t => {
+test('invalid arg', t => {
   const now = 'nice'
-  const greetings = await goot(now)
+  const error = t.throws(() => {
+    goot(now)
+  }, TypeError)
 
-  t.is(greetings, 'Invalid time')
+  t.is(error.message, 'Invalid time')
 })
 
 test('should return a not empty result', t => {
