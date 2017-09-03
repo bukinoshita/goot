@@ -1,6 +1,6 @@
 {
   "name": "goot",
-  "version": "0.0.7",
+  "version": "1.0.0",
   "description": "Goot humanize greetings 👋",
   "main": "lib/index.js",
   "scripts": {
@@ -17,8 +17,16 @@
     "eslint-config-prettier": "^2.4.0",
     "xo": "^0.17.1"
   },
-  "keywords": ["goot", "humanize", "greeting", "time", "humanizer"],
+  "keywords": [
+    "goot",
+    "humanize",
+    "greeting",
+    "time",
+    "humanizer"
+  ],
   "xo": {
-    "extends": ["prettier"]
+    "extends": [
+      "prettier"
+    ]
   }
 }
