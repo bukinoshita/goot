@@ -23,5 +23,10 @@
     "morgen",
     "nachmittag",
     "nacht"
+  ],
+  "id": [
+    "pagi",
+    "sore",
+    "malam"
   ]
 }
